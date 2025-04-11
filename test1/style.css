@@ -1,0 +1,40 @@
+body{
+    /* 모든 텍스트를 가운데 정렬 */
+    text-align: center;
+}
+/* block tag를 화면의 중앙에 배치하려면 
+    margin: 10px auto;
+    margin : auto (자동으로 양쪽에 알아서 배치)
+    margin : 10px;   상하좌우 전체에 10px
+    margin : 10px 20px;   상하10px / 좌우20px  
+    margin : 10px 20px 30px;   상10px / 좌우20px / 하30px
+    margin : [top][right][bottom][left]
+*/
+h1{
+    width: 300px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 10px auto 30px;
+}
+ul{
+    list-style: none;
+    width: 500px;
+    margin: 10px auto;
+    padding: 0;
+}
+ul>li{
+    display: inline;
+    margin: 10px 20px;
+}
+ul>li>a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 500px;
+}
+.curr_view{
+    color: blueviolet;
+}

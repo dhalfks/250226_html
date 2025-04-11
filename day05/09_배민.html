@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배달의 민족</title>
+    <!-- font link -->
+    <style>
+        @font-face {
+            font-family: dongle;
+            src: url(../font/Dongle/Dongle-Bold.ttf);
+        }
+        body{
+            background-color: rgb(145, 231, 231);
+            font-family: dongle;
+            text-align: center;
+        }
+        .container>.header{
+            margin: 20px;
+        }
+        .container>.header>h1{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .container>.header>h3{
+            font-size: 30px;
+        }
+        .container>.menu{
+            width: 300px;
+            background-color: white;
+            margin: 20px auto 50px;
+            border-radius: 10px;
+        }
+        .container>.menu>div:first-child{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(145, 231, 231);
+            background-size: 300px 200px;
+            border-radius: 10px 10px 0 0;
+        }
+        .container>.menu h2{
+            font-size: 25px;
+        }
+        .container>.menu p:nth-of-type(1){
+            font-size: 20px;
+        }
+        .container>.menu p:nth-of-type(3){
+            padding-bottom: 20px;
+            color: blue;
+            font-weight: 700;
+        }
+        #sushi{
+            background-image: url(../image/초밥.jpg);
+        }
+        #hamburger{
+            background-image: url(../image/hamburger.jpg);
+        }
+        #chicken{
+            background-image: url(../image/chicken.jpg);
+        }
+        #bibimbab{
+            background-image: url(../image/bibimbab.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>배달의 민족</h1>
+            <h3>넌 배달할 때가 제일 멋있어</h3>
+        </div>
+        <!-- 하나의 메뉴 박스 -->
+        <div class="menu">
+            <div id="sushi"></div>
+            <div>
+                <h2>맛있는 초밥</h2>
+                <p>주머니가 가벼운 당신의 마음까지 생각한 착한 가격!</p>
+                <p><del>25,000원</del> 15,000원</p>
+                <p>바로결제</p>
+            </div>
+        </div>
+
+        <!-- 5개 생성 -->
+        <div class="menu">
+            <div id="hamburger"></div>
+            <div>
+                <h2>맛있는 햄버거</h2>
+                <p>주머니가 가벼운 당신의 마음까지 생각한 착한 가격!</p>
+                <p><del>25,000원</del> 15,000원</p>
+                <p>바로결제</p>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="chicken"></div>
+            <div>
+                <h2>맛있는 치킨</h2>
+                <p>주머니가 가벼운 당신의 마음까지 생각한 착한 가격!</p>
+                <p><del>25,000원</del> 15,000원</p>
+                <p>바로결제</p>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="bibimbab"></div>
+            <div>
+                <h2>맛있는 비빔밥</h2>
+                <p>주머니가 가벼운 당신의 마음까지 생각한 착한 가격!</p>
+                <p><del>25,000원</del> 15,000원</p>
+                <p>바로결제</p>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="sushi"></div>
+            <div>
+                <h2>맛있는 초밥</h2>
+                <p>주머니가 가벼운 당신의 마음까지 생각한 착한 가격!</p>
+                <p><del>25,000원</del> 15,000원</p>
+                <p>바로결제</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
